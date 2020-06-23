@@ -48,7 +48,7 @@ function clearList (){
 
 function scrollPage(){
   window.scrollTo({
-    top: document.documentElement.offsetHeight, 
+    top: refs.loadMoreBtn.offsetTop, 
     behavior: "smooth"
   })
 }
